@@ -1,0 +1,29 @@
+@import 'variables';
+
+.Left {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    background-color: $secondary;
+    color: $primary;
+}
+
+.Left img {
+    width: 50px;
+    height: 30px;
+    margin-left: 50px;
+}
+
+.Link {
+    margin: 0 $rem;
+    cursor: pointer;
+    transition: .1s;
+    text-decoration: none;
+    color: $white;
+}
+
+.Link:hover {
+    color: $primary;
+}
+

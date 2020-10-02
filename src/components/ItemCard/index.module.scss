@@ -1,0 +1,52 @@
+@import 'variables';
+
+.Item {
+    width: 100%;
+    height: 100%;
+    padding: $rem;
+}
+
+.Image {
+    height: 200px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.ItemBody {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Price {
+    width: 100%;
+    display: flex;
+    margin-bottom: $rem;
+}
+
+.Buttons {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.Button {
+    padding: 10px;
+    margin: 2px;
+    border: none;
+    border-radius: 10px;
+    background: #C86FCF;
+    outline: none;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.Button:hover {
+    border: none;
+    color: white;
+    background: #9C0094;
+}
+

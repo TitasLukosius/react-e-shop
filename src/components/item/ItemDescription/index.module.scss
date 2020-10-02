@@ -1,0 +1,26 @@
+@import 'variables';
+
+.ItemDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px 50px 100px;
+    background-color: $primary;
+    width: 700px;
+    height: 700px;
+}
+
+.ItemDescription h2 {
+    color: $white;
+    text-shadow: 2px 2px black;
+}
+
+.ItemDescription button {
+    color: $white;
+    text-shadow: 2px 2px black;
+}
+
+.ItemDescription button:hover {
+    color: $primary;
+}

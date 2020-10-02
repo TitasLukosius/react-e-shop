@@ -1,0 +1,15 @@
+@import 'variables';
+
+.Card {
+    display: inline-block;
+    width: 350px;
+    height: 550px;
+    box-shadow: $shadow;
+    border-radius: 10px;
+    transition: .2s;
+    background: $white;
+}
+
+.Card:hover {
+    box-shadow: 0 3px 10px 2px $primary;
+}

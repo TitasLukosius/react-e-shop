@@ -1,0 +1,11 @@
+.ItemImage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid black;
+}
+
+.ItemImage img{
+    height: 700px;
+}

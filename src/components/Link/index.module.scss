@@ -1,0 +1,11 @@
+@import 'variables';
+
+.Link {
+    margin: 0 $rem;
+    cursor: pointer;
+    transition: .1s;
+}
+
+.Link:hover {
+    color: $white;
+}

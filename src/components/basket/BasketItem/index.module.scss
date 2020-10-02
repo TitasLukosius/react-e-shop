@@ -1,0 +1,12 @@
+@import 'variables';
+
+td {
+    text-align: center;
+}
+
+.remove {
+    width: 20px;
+    color: $primary;
+    font-size: 30px;
+    cursor: pointer;
+}

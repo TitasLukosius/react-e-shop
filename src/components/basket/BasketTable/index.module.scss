@@ -1,0 +1,57 @@
+@import 'variables';
+
+.tableCon {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 700px;
+    padding-top: 80px;
+    background: radial-gradient(#68466a, #553257, #310f34);
+}
+
+.tableCon h2, .tableCon button {
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.tableCon h3 {
+    color: $primary;
+}
+
+.table {
+    width: 70%;
+    margin-top: 50px;
+}
+
+.table {
+    background-color: radial-gradient(#68466a, #553257, #310f34);
+    color: white;
+}
+
+.table tr {
+    border-bottom: 1px solid $primary;
+}
+
+td, th {
+    padding: 10px;
+    border-bottom: 1px solid $primary;
+}
+
+th {
+    padding: 5px;
+    font-size: 20px;
+    text-shadow: 2px 2px black;
+}
+
+.tableCon button {
+    margin-top: 50px;
+    width: 100px;
+}
+
+.tableCon button:hover {
+    color: $primary;
+}
+
+

@@ -1,0 +1,45 @@
+@import 'variables';
+
+.IntroImage {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: $rem;
+    background: $secondary;
+}
+
+.ImageContainer {
+    display: grid;
+    grid-gap: 20px;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+}
+
+.IntroImage img {
+    object-fit: cover;
+    width: 200px;
+    height: 100px;
+    transition: .2s;
+    box-shadow:  0 3px 4px 2px $primary;
+}
+
+.IntroImage img:hover {
+    transform: scale(1.1);
+}
+
+.IntroImage button {
+    padding: 10px;
+    margin: 2px;
+    border: none;
+    border-radius: 10px;
+    background: #C86FCF;
+    outline: none;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.IntroImage button:hover {
+    border: none;
+    color: white;
+}

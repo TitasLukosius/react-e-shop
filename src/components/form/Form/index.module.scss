@@ -1,0 +1,27 @@
+@import "variables";
+
+.Form {
+    background: radial-gradient(#68466a, #553257, #310f34);
+    border: 1px solid $primary;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Form h2 {
+    color: $white;
+    text-shadow: 2px 2px black;
+}
+
+.Form button {
+    width: 200px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.Form button:hover {
+   background-color: $primary;
+}
