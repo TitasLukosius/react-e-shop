@@ -10,6 +10,7 @@ import Item from 'pages/Item';
 import Basket from 'pages/Basket';
 import Navbar from 'components/Navbar';
 import Footer from 'components/Footer';
+import Logout from 'pages/Logout';
 import {
   BrowserRouter as Router,
   Switch,
@@ -34,12 +35,15 @@ const App = () => {
       <Route path="/register">
         <Register />
       </Route>
-      <Route path="/item">
+      <Route path="/item/:itemId">
         <Item />
       </Route>
       <Route path="/basket">
-      <Basket />
-    </Route>
+        <Basket />
+      </Route>
+      <Route path="/logout">
+        <Logout />
+      </Route>
     </Switch>
     <Footer />
   </Router>

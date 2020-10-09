@@ -107,7 +107,6 @@ const filterTypes = [
                 const type = item.type;
                 for (let i = 0; i < types.length; i++) {
                     const { name, show } = types[i];
-                    console.log(name);
                     if ( !show && type === name) return false;
                 }
                 return true;

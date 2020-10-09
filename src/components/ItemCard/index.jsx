@@ -3,9 +3,12 @@ import styles from "./index.module.scss";
 import Card from 'components/Card';
 import { connect } from 'react-redux';
 import { addToCart } from 'store/actionCreators';
+import {
+    Link
+} from 'react-router-dom';
 
 
-const ItemCard = ({id, title, price, img, addToCart}) => {
+const ItemCard = ({id, title, price, img, addToCart, description}) => {
 
     return (
         <Card>
@@ -18,7 +21,8 @@ const ItemCard = ({id, title, price, img, addToCart}) => {
                     </div>
                     <div className ={styles.Buttons}>
                         <button className={styles.Button} onClick={() => addToCart(id)}>Add to Cart</button>
-                        <button className={styles.Button}>Learn more</button>
+                        <button className={styles.Button}><Link className={styles.ButtonLink}to={`/item/${id}`}>Learn more</Link>
+                        </button>
                     </div>
                 </div>
             </div>

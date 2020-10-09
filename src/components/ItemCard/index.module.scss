@@ -50,3 +50,13 @@
     background: #9C0094;
 }
 
+.ButtonLink {
+    width: 100px;
+    text-decoration:none;
+    color:black;
+    transition: .2s;
+}
+
+.ButtonLink:hover {
+    color: $white;
+}
